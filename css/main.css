@@ -9,20 +9,36 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+h1{
+    color: goldenrod;
+    font-family: Georgia;
+    position:relative;
+    padding-left: 15%;
+}
 
 body{
     font-family: "Nunito", sans-serif;
     color: #333;
     font-weight: 300;
     line-height: 1.6;
-    background-color: forestgreen;
+    background-color: rgb(26, 73, 26);
+}
+
+#button{
+    color: rgb(26, 73, 26);
+    background-color: goldenrod;
+    border-radius: 8px;
+    padding: 2px 2px 2px 2px;
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top: 4%;
 }
 
 /* Styles for movie posters */
 .container{
     width: 40%;
     margin: 2rem auto;
-    background-color: forestgreen;
+    background-color: rgb(26, 73, 26);
 }
 
 .gallery{
