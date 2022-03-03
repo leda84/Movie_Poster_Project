@@ -93,7 +93,7 @@ function getSong(id, event){
             break;
         }
         case 'fig3':{
-            clickedEvent(2,9)
+            clickedEvent(2,6)
             break;
         }
         case 'fig4':{
@@ -105,7 +105,7 @@ function getSong(id, event){
             break;
         }
         case 'fig6':{
-            clickedEvent(5,3)
+            clickedEvent(5,9)
             break;
         }
         case 'fig7': {
@@ -113,11 +113,11 @@ function getSong(id, event){
             break;
         }
         case 'fig8': {
-            clickedEvent(7,5)
+            clickedEvent(7,7)
             break;
         }
         case 'fig9': {
-            clickedEvent(8,7)
+            clickedEvent(8,9)
             break;
         }
         case 'fig10': {
@@ -142,7 +142,7 @@ function songSnippet(url){
 /**
  * NO PARAMS
  * 
- * function reutnrs the event to stop the song snippet
+ * function returns the event to stop the song snippet
  */
 function stopSnippet(){
     return playSong.pause();
